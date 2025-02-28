@@ -12,7 +12,9 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(57, 75, 110, 0.824);
+    /* background-color: rgba(57, 75, 110, 0.824); */
+    background-color: rgba(11, 13, 115, 0.824);
+    box-shadow: 0px 8px 20px rgba(0, 4, 15, 0.5);
     position: sticky;
     top: 0;
     flex:1.5;
@@ -22,9 +24,9 @@ nav{
 }
 #brand{
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     margin: 1.5rem;
-    font-weight: bold;
+    font-weight: 300;
     color: white;
 }
 nav ul{
@@ -42,7 +44,7 @@ nav ul li a{
     border-radius: 0.5rem;
 }
 nav ul li a:not(.active):hover{
-    background-color: rgba(21, 90, 130, 0.566);
+    background-color: rgba(182, 211, 228, 0.566);
     color: aliceblue;
 }
 .menu{
