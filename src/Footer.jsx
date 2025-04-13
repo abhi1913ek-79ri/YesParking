@@ -4,7 +4,7 @@ function Footer() {
     
   return (
     <div>
-      Copyright © {new Date().getFullYear()}
+      Copyright a © {new Date().getFullYear()}
     </div>
   )
 }
