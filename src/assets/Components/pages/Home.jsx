@@ -1,6 +1,6 @@
 import React from 'react';
 import './Home.css'; // Custom CSS
-import heroImage from '../../../assets/images/hero-image.png'; // Example image path
+import heroImage from '../../Images/hero-image.png'; // Example image path
 import { Link } from 'react-router-dom';
 
 const Home= () => {
