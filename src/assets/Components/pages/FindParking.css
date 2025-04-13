@@ -1,0 +1,58 @@
+.find-parking-container {
+  padding: 2rem;
+}
+
+.search-box {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 20px;
+  max-width: 450px;
+  margin: auto;
+  box-shadow: 0 4px 20px rgba(0, 113, 252, 0.193);
+  text-align: center;
+}
+
+.search-box h2 {
+  margin-bottom: 1.5rem;
+  color: #003366;
+}
+
+.search-box input {
+  display: block;
+  width: 100%;
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  font-size: 1rem;
+}
+
+.search-box button {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #0052cc;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.search-box button:hover {
+  background-color: #003d99;
+}
+
+.results-placeholder {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.results-placeholder h3 {
+  color: #003366;
+  margin-bottom: 0.5rem;
+}

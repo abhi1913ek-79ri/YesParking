@@ -27,7 +27,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  flex: 8;/*here 8 */
+  flex: 8;
 }
 .footer{
   display: flex;

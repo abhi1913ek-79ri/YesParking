@@ -1,0 +1,96 @@
+/* Global styles */
+/* body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9fafc;
+} */
+
+/* Hero Section */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 40px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .hero {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero-text h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.hero-text p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  color: #555;
+}
+.findParking-btn{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+.listSpot{
+    color: #4f46e5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero-buttons .btn-primary,
+.hero-buttons .btn-outline {
+  margin-right: 15px;
+  padding: 10px 20px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn-primary {
+  background-color: #4f46e5;
+  color: white;
+}
+.btn-primary:hover {
+  background-color: #4338ca;
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 2px solid #4f46e5;
+  color: #4f46e5;
+}
+/* here btn-outline hover not working so i inserted it in as a lass like if elese */
+.btn-outline:hover {
+  background-color: #4f46e5;
+  .listSpot{
+    color: white;  
+  }
+}
+
+
+.hero-image {
+  max-width: 100%;
+  width: 400px;
+  margin-top: 40px;
+  border-radius: 40%;
+}
+.random-shape {
+    width: 200px;
+    height: 200px;
+    background: #7b2cbf;
+    border-radius: 50% 40% 60% 30% / 30% 60% 40% 50%; /* this creates blob */
+}
+  

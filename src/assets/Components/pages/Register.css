@@ -1,0 +1,74 @@
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: linear-gradient(to bottom right, #e6f2ff, #99ccff); */
+  }
+  
+  .register-box {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 113, 252, 0.193);
+    width: 90%;
+    max-width: 420px;
+    text-align: center;
+  }
+  
+  .register-box h2 {
+    margin-bottom: 1.5rem;
+    color: #004080;
+  }
+  
+  .register-box input[type="text"],
+  .register-box input[type="email"],
+  .register-box input[type="password"] {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    font-size: 1rem;
+  }
+  
+  .register-box button {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #0052cc;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .register-box button:hover {
+    background-color: #003d99;
+  }
+  
+  .register-box p {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+  }
+  
+  .register-box a {
+    color: #0052cc;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .role-select {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+  }
+  
+  .role-select label {
+    font-size: 0.95rem;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+  }
+  

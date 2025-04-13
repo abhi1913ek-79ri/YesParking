@@ -81,7 +81,32 @@ nav ul.open{
     display: flex;
 }
 
+.menu-icon {
+    font-size: 2.2rem;
+    color: white;
+    cursor: pointer;
+    padding: 0.4rem;
+    user-select: none;
+}
 
+#login{
+    background-color: #006aff;
+    color: rgb(255, 255, 255);
+    font-size: 1.1rem;
+}
+#login:hover{
+    background-color: #0051d4;
+    color: rgb(255, 255, 255);
+}
+
+
+@media(max-width:600px) {
+    nav .menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
 
 
 
